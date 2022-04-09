@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #282a36;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+head {
+    width: 100%;
+}
+
+#logo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.7rem;
+    
+}
+
+/*CONTAINER*/
+
+.container{
+    margin-top: 50px;
+    width: 500px;
+    height: 755px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /*border: solid 1px;
+    border-color: rgb(175, 219, 219);*/
+    margin: 50px auto 0px auto;
+}
+
+
+.display{
+    
+    width: 490px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 40px;
+    background: #58595f;
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(68, 208, 255, 0.103);
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#number {
+    margin-right: 12px;
+}
+
+.buttons {
+    margin-left: 5px;
+    margin-top: -60px;
+    width: 490px;
+    height: 570px;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+
+.button {
+    margin: 1px;
+    width: 120px;
+    height: 120px;
+    text-decoration: none;
+    background: #44475a;
+    border-radius: 2px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    font-size: 40px;
+    color: #fff;
+   
+}
+
+.button:hover {
+    background: #8d90a0;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*TECLAS*/
+
+#clear, #percentual, #divide, #multiply, #subtract, #add {
+    background: #535563;
+    border-radius: 2px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: #fff;
+}
+
+#clear:hover, #percentual:hover, #divide:hover, #multiply:hover, #subtract:hover, #add:hover {
+    background: rgb(136, 127, 127);
+}
+
+#equals {
+    background: #ff5555;
+    border-radius: 2px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-color: #44475a;
+    color: white;
+    border-bottom: none;
+    padding-top: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 50px;
+}
+#equals2 {
+    background: #ff5555;
+    border-radius: 2px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-color: #44475a;
+    color: white;
+    border-top: none;
+    margin-top: -2px;
+}
+
